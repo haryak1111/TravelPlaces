@@ -1,13 +1,13 @@
 html,
-body{
+body {
     height: 100%;
     width: 100%;
+    background-color: lemonchiffon;
 }
 
 table,
-th,
 td {
-    border-width: 10px;
+    border-width: 5px;
     border-color: chocolate;
     border-style: groove;
     align-items: center;
@@ -17,4 +17,11 @@ td {
 iframe {
     width: 100%;
     height: 100%;
+}
+
+a {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
 }
