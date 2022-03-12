@@ -1,0 +1,27 @@
+html, body{
+    overflow-x: hidden;
+}
+div, tr, td{
+    border-radius: 1px;
+    border-color: black;
+    border-style: double;
+}
+
+.photofill {
+    flex-grow: 1;
+}
+
+.photoquarter {
+    width: 25%;
+    aspect-ratio: 4/3;
+}
+
+.photothird {
+    width: 33%;
+    aspect-ratio: 4/3;
+}
+
+.photohalf {
+    width: 50%;
+    aspect-ratio: 4/3;
+}
